@@ -722,7 +722,6 @@ media quires for mobile
 ========================================================================== */
 
 @media (max-width: 440px) {
- 
   #home h1 {
     font-size: 22px;
   }
@@ -745,6 +744,43 @@ media quires for mobile
         margin-top: 10px;
         margin-right: 85px;
         transition: all 0.4s ease-in-out;
+    }
+
+
+}
+
+@media (max-width: 400px) {
+    #home{
+        text-align: left;
+    }
+
+    #home h1 {
+        font-size: 18px;
+    }
+    #home h2 {
+        font-size: 13px;
+    }
+    #home h3 {
+        font-size: 12px;
+    }
+    #home h4 {
+        font-size: 14px;
+    }
+
+    #home .super_title {
+        font-size: 22px !important;
+        font-weight: 700;
+        line-height: 0.9;
+        margin: 0;
+    }
+
+    #home .btn {
+        font-weight: bold;
+        margin-top: 10px;
+        margin-right: 65px;
+        margin-left: 60px;
+        transition: all 0.4s ease-in-out;
+        padding: 5px 10px;
     }
 
 
